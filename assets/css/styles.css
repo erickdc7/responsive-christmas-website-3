@@ -217,7 +217,16 @@ img {
   right: -6px;
 }
 
+.nav__close {
+  position: absolute;
+  top: 1.15rem;
+  right: 1.5rem;
+}
+
 /* Active link */
+.active-link {
+  color: var(--title-color);
+}
 
 /* Show menu */
 
