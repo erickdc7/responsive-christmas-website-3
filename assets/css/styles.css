@@ -139,6 +139,22 @@ img {
 }
 
 /* Navigation for mobile devices */
+@media screen and (max-width: 1150px) {
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: var(--gradient-color);
+    width: 80%;
+    height: 100%;
+    box-shadow: -2px 0 12px hsla(0, 0%, 0%, 0.2);
+    padding: 6rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    transition: right 0.4s;
+  }
+}
 
 /* Active link */
 
