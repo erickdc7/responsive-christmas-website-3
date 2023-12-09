@@ -156,6 +156,27 @@ img {
   }
 }
 
+.nav__list {
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.nav__link {
+  color: var(--text-color);
+  font-weight: var(--font-bold);
+  display: inline-flex;
+  flex-direction: column;
+  transition: color 0.4s;
+}
+
+.nav__link span {
+  font-size: var(--smaller-font-size);
+}
+
+.nav__link:hover {
+  color: var(--title-color);
+}
+
 /* Active link */
 
 /* Show menu */
