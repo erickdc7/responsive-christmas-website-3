@@ -228,6 +228,10 @@ img {
   color: var(--title-color);
 }
 
+.active-link span {
+  color: var(--first-color);
+}
+
 /* Show menu */
 
 /*=============== BUTTON ===============*/
