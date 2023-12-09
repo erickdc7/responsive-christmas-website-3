@@ -89,6 +89,28 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--first-color-dark);
+  z-index: var(--z-fixed);
+}
+
+.nav,
+.nav__logo,
+.nav__list,
+.nav__buttons {
+  display: flex;
+}
+
+.nav {
+  position: relative;
+  height: var(--header-height);
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Navigation for mobile devices */
 
