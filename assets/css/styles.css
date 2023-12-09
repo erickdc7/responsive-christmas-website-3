@@ -332,6 +332,32 @@ img {
   position: absolute;
 }
 
+.home__bell {
+  width: 50px;
+  top: 14rem;
+  right: -1.25rem;
+  transform: rotate(30deg);
+}
+
+.home__star {
+  width: 60px;
+  bottom: 17rem;
+  left: -3rem;
+  transform: rotate(30deg);
+}
+
+.home__blob {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background-color: var(--first-color-dark);
+  border-radius: 4rem;
+  transform: rotate(45deg);
+  left: -23rem;
+  top: 6rem;
+  z-index: -1;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
