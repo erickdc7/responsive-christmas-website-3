@@ -238,6 +238,28 @@ img {
 }
 
 /*=============== BUTTON ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  font-weight: var(--font-bold);
+  padding: 1.125rem 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 24px hsla(0, 0%, 0%, 0.2);
+  transition: background-color 0.4s;
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button__dark {
+  background-color: var(--first-color-dark);
+}
+
+.button__dark:hover {
+  background-color: var(--first-color-darker);
+}
 
 /*=============== HOME ===============*/
 
