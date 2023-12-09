@@ -112,6 +112,32 @@ img {
   align-items: center;
 }
 
+.nav__logo {
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__logo span:nth-child(1) {
+  color: var(--first-color);
+  font-size: var(--h1-font-size);
+  font-family: var(--second-font);
+  transform: translateY(4px);
+}
+
+.nav__logo span:nth-child(2) {
+  transform: translateY(-4px);
+}
+
+.nav__toggle,
+.nav__close {
+  display: inline-flex;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
+
 /* Navigation for mobile devices */
 
 /* Active link */
