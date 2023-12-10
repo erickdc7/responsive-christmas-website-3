@@ -386,5 +386,10 @@ img {
 }
 
 /* For lower devices */
+@media screen and (max-width: 968px) and (max-height: 720px) {
+  .home {
+    height: initial;
+  }
+}
 
 /* For large devices */
