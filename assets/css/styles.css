@@ -373,6 +373,17 @@ img {
 }
 
 /* For medium devices */
+@media screen and (min-width: 400px) {
+  .home__container {
+    grid-template-columns: 360px;
+    justify-content: center;
+    row-gap: 3rem;
+  }
+
+  .home__img {
+    transform: scale(1.1);
+  }
+}
 
 /* For lower devices */
 
